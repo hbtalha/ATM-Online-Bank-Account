@@ -12,3 +12,4 @@ Make uses of the the Howard Hinnant [date library](https://github.com/HowardHinn
 - Limted password attempts on Sign in
 - In case password attempts limit is exceeded, the account will be locked for 24hours
 - Operations such as View Balance, Withdrawal, Deposit, Transfer, View Transactions
+- Transfer amount limit by day
