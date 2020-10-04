@@ -1143,6 +1143,7 @@ void Account::transactions(const string& account_num) const
     ifstream file_in(sfile_path);
 
     // print out the entire content of the file
+    if(file_in.peek() != ifstream::traits_type::eof()) // if empty
     cout << file_in.rdbuf();
 
     cout << endl << endl;
